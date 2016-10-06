@@ -16,11 +16,11 @@ import { createPath } from 'history/PathUtils';
 import history from './core/history';
 import { addLocaleData } from 'react-intl';
 import en from 'react-intl/locale-data/en';
-import cs from 'react-intl/locale-data/cs';
+import ko from 'react-intl/locale-data/ko';
 import App from './components/App';
 import configureStore from './store/configureStore';
 
-[en, cs].forEach(addLocaleData);
+[en, ko].forEach(addLocaleData);
 
 // Global (context) variables that can be easily accessed from any React component
 // https://facebook.github.io/react/docs/context.html
